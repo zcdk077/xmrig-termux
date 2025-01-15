@@ -19,6 +19,18 @@ Scala (XLA)
 Ssy2PTEKz8J5Pi6hT8Bj4e27fdhgUpkx8FeU4tBs1EhrBNvqKYF72m3YXmW6cxhCYv3RefW8C2egxYqGKrQoJN3X5Cnbw9UDY7
 ```
 
+## Daftar Algorithms
+Daftar Algoritma yang support: https://xmrig.com/docs/algorithms
+- Equilibria (XEQ) RX variant (Algo: "rx/xeq")
+- Tuske RX variant (Algo: "rx/tuske")
+- VKAX Ghostrider variant Mike (Algo: "mike")
+- XDagger RX variant (Algo: "rx/xdag")
+- Conceal (CCX), RYO, ... CN variant (Algo: "cn/gpu")
+- Ghostrider (Raptoreum) (Algo: "gr")
+- KawPow (Ravencoin) (Algo: "kawpow")
+- Graft RX variant (Algo: "rx/graft")
+- Yadacoin RX variant (Algo: "rx/yada")
+
 ## Bahan-Bahan Mining
 1. <a href=https://moneyblink.com/UhQzhTymk>Termux</a>
 2. <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Manager</a> <br><br>
