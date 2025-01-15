@@ -1,24 +1,30 @@
 #!/bin/bash
 
-set -e
-# Gantikan Pool, Wallet dan Password. Lihat readme untuk informasi lebih lanjut.
-#ALGO="ghostrider" #Algoritma Coin
-#POOL="ghostrider.sea.mine.zpool.ca:5354" #Link pool dan port
-#WALLET="DRz9CYkQDmtUZUCT3YHR4i5giwhBcAAdva" # Wallet Address
-#PASSWORD="c=DGB,Donations" #Password
-#THREADS="8" #CPU Threads yang akan digunakan
-
-cd build
-source ../config.json
-echo "Memulai mining"
-sleep 1
-echo "Memulai mining ."
-sleep 1
-echo "Memulai mining . ."
-sleep 1
-echo "Memulai mining . . ."
-sleep 1
+clear
+echo "Siap memulai mining ??"
+sleep 2
+echo "Mempersiapkan konfigurasi ."
+sleep 2
+echo "Mempersiapkan konfigurasi . ."
+sleep 2
+echo "Mempersiapkan konfigurasi . . ."
+sleep 2
+echo "Memasang konfigurasi"
+sleep 2
 echo "Salam Receh Bosku . . . ."
-sleep 5
-#./xmrig -a $pools['algo'] -o $pools['url'] -u $pools['user'] -p $pools['pass'] --pools-keepalive $pools['keepalive']
-./xmrig ~/config.json
+sleep 2
+echo "Mining dimulai dalam hitungan ke 5"
+sleep 1
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+clear
+
+~/xmrig/build/xmrig -c ~/xmrig/config.json
