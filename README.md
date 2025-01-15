@@ -1,5 +1,23 @@
 # XMRIG FOR TERMUX ONLY
-Build yang dibuat mempermudah untuk menginstal xmrig di aplikasi <a href=https://moneyblink.com/UhQzhTymk>Termux</a> dan sangat cocok dikombinasikan dengan aplikasi <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Mananger</a> tanpa menginstall aplikasi <a href=https://moneyblink.com/VfD7ic46Ww9>Termux:Boot</a> dan Install Ubuntu.
+Build yang dibuat mempermudah untuk menginstal xmrig di aplikasi <a href=https://moneyblink.com/UhQzhTymk>Termux</a> dan sangat cocok dikombinasikan dengan aplikasi <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Mananger</a> tanpa menginstall aplikasi <a href=https://moneyblink.com/VfD7ic46Ww9>Termux:Boot</a> dan tanpa repot-repot Install Ubuntu.
+
+# DONASI
+Verus (VRSC)
+```
+RGdgdAU7xB3vEwSfhPYGJJY9R85iAvhVtS
+```
+Digibyte (DGB)
+```
+DRz9CYkQDmtUZUCT3YHR4i5giwhBcAAdva
+```
+Sugarchain (SUGAR)
+```
+sugar1qxc2lqyhdkzp6vacamw8mandszhrpaznkuzsnar
+```
+Scala (XLA)
+```
+Ssy2PTEKz8J5Pi6hT8Bj4e27fdhgUpkx8FeU4tBs1EhrBNvqKYF72m3YXmW6cxhCYv3RefW8C2egxYqGKrQoJN3X5Cnbw9UDY7
+```
 
 ## Bahan-Bahan Mining
 1. <a href=https://moneyblink.com/UhQzhTymk>Termux</a>
