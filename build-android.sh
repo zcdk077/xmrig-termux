@@ -26,12 +26,14 @@ else
     make && echo "Done... you can use run script now"
 fi
 # remove build-android.sh
-set -e
 echo "Menghapus build"
-cd
+cd ..
 echo "Proses hapus build"
 if ! rm -r build-android.sh; then
     exit 1
 else
     rm -r build-android.sh && echo "Build telah dihapus"
 fi
+cd xmrig
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
+chmod +x start.sh
