@@ -56,7 +56,7 @@ nano config.json
 ./start.sh
 ```
 
-## Setting Autorun Termux dan Mining ]
+## [ Setting Autorun Termux dan Mining ]
 ```
 cd
 nano ../etc/bash.bashrc
