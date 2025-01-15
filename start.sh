@@ -15,4 +15,5 @@ echo "Memulai mining ."
 echo "Memulai mining . ."
 echo "Memulai mining . . ."
 echo "Salam Receh Bosku . . . ."
-./xmrig -a $pools['algo'] -o $pools['url'] -u $pools['user'] -p $pools['pass'] --pools-keepalive $pools['keepalive']
+#./xmrig -a $pools['algo'] -o $pools['url'] -u $pools['user'] -p $pools['pass'] --pools-keepalive $pools['keepalive']
+./xmrig ~/config.json
