@@ -25,15 +25,7 @@ if ! make; then
 else
     make && echo "Done... you can use run script now"
 fi
-# remove build-android.sh
-echo "Menghapus build"
 cd ..
-echo "Proses hapus build"
-if ! rm -r build-android.sh; then
-    exit 1
-else
-    rm -r build-android.sh && echo "Build telah dihapus"
-fi
 cd xmrig
 echo "Proses clone konfigurasi"
 if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh; then
