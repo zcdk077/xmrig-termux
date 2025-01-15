@@ -35,5 +35,9 @@ else
     rm -r build-android.sh && echo "Build telah dihapus"
 fi
 cd xmrig
-wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
-chmod +x start.sh
+echo "Proses clone konfigurasi"
+if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh; then
+    exit 1
+else
+    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh && echo "Berhasil clone konfigurasi"
+fi
