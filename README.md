@@ -35,6 +35,7 @@ nano ../etc/bash.bashrc
 ## [ Copy dan paste dibaris paling bawah ]
 
 ```
+termux-wake-lock
 clear
 cd xmrig/&&./start.sh
 ```
