@@ -2,6 +2,7 @@
 
 set -e
 echo "Tunggu sebentar"
+sleep 3
 echo "Update dan install library"
 sleep 5
 pkg update && pkg upgrade -y
@@ -13,6 +14,7 @@ mkdir xmrig/build
 cd xmrig/build
 # cmake
 echo "Proses CMake"
+sleep 5
 if ! cmake -DWITH_HWLOC=OFF ..; then
     echo "Error: CMake configuration failed"
     exit 1
@@ -21,12 +23,15 @@ else
 fi
 # compile
 echo "Compiling now"
+sleep 5
 if ! make; then
     echo "Error: Compiling failed"
     exit 1
 else
     make && echo "Done... you can use run script now"
 fi
+echo "Proses clone konfigurasi"
+sleep 5
 cd
 cd xmrig
 echo "Proses clone konfigurasi"
