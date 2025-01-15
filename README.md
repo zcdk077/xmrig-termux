@@ -1,5 +1,5 @@
 # XMRIG FOR TERMUX ONLY
-Build yang dibuat mempermudah untuk menginstal xmrig di aplikasi <a href=https://moneyblink.com/UhQzhTymk>Termux</a> dan sangat cocok dikombinasikan dengan aplikasi <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Mananger</a> tanpa menginstall aplikasi <a href=https://moneyblink.com/VfD7ic46Ww9>Termux:Boot dan Install Ubuntu.
+Build yang dibuat mempermudah untuk menginstal xmrig di aplikasi <a href=https://moneyblink.com/UhQzhTymk>Termux</a> dan sangat cocok dikombinasikan dengan aplikasi <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Mananger</a> tanpa menginstall aplikasi <a href=https://moneyblink.com/VfD7ic46Ww9>Termux:Boot</a> dan Install Ubuntu.
 
 ## Bahan-Bahan Mining
 1. <a href=https://moneyblink.com/UhQzhTymk>Termux</a>
