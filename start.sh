@@ -8,7 +8,7 @@ set -e
 #PASSWORD="c=DGB,Donations" #Password
 #THREADS="8" #CPU Threads yang akan digunakan
 
-cd xmrig/build
+cd build
 source ../config.json
 echo "Memulai mining"
 sleep 1
