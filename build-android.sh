@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Berhasil download build"
+sleep 3
+
 set -e
 echo "Tunggu sebentar"
 sleep 3
