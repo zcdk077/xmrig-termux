@@ -40,3 +40,4 @@ if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
 else
     wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh && echo "Berhasil clone konfigurasi"
 fi
+cd
