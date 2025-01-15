@@ -28,11 +28,10 @@ fi
 # remove build-android.sh
 set -e
 echo "Menghapus build"
-cd ..
+cd
 echo "Proses hapus build"
-if ! rm build-android.sh; then
-    echo "Errror: Gagal hapus buid"
+if ! rm -r build-android.sh; then
     exit 1
 else
-    rm build-android.sh && echo "Build telah dihapus"
+    rm -r build-android.sh && echo "Build telah dihapus"
 fi
