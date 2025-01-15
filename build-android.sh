@@ -44,28 +44,9 @@ echo "Proses clone konfigurasi . . ."
 sleep 3
 cd
 cd xmrig
-if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh; then
-    echo "Error: Cloning"
-    exit 1
-else
-    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
-fi
-sleep 1
-if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json; then
-    echo "Error: Cloning"
-    exit 1
-else
-    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json
-fi
-sleep 1
-if ! chmod +x config.json; then
-    exit 1
-else
-    chmod +x config.json
-fi
-if ! chmod +x start.sh; then
-    exit 1
-else
-    chmod +x start.sh && ech "Berhasil cloning konfigurasi"
-fi
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
+chmod +x start.sh
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json
+chmod +x config.json
+echo "Berhasil cloning konfigurasi"
 cd
