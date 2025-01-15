@@ -3,7 +3,7 @@
 set -e
 echo "Tunggu sebentar"
 sleep 3
-echo "Update dan install library"
+echo "Kita update dan install library terlebih dahulu"
 sleep 5
 pkg update && pkg upgrade -y
 pkg install wget cmake nano
