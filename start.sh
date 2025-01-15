@@ -11,9 +11,14 @@ set -e
 cd xmrig/build
 source ../config.json
 echo "Memulai mining"
+sleep 1
 echo "Memulai mining ."
+sleep 1
 echo "Memulai mining . ."
+sleep 1
 echo "Memulai mining . . ."
+sleep 1
 echo "Salam Receh Bosku . . . ."
+sleep 5
 #./xmrig -a $pools['algo'] -o $pools['url'] -u $pools['user'] -p $pools['pass'] --pools-keepalive $pools['keepalive']
 ./xmrig ~/config.json
