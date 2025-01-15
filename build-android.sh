@@ -28,16 +28,41 @@ if ! make; then
     echo "Error: Compiling failed"
     exit 1
 else
-    make && echo "Done... you can use run script now"
+    make && echo "Proses Instalasi selesai"
 fi
+sleep 3
 echo "Proses clone konfigurasi"
-sleep 5
+sleep 1
+echo "Proses clone konfigurasi ."
+sleep 1
+echo "Proses clone konfigurasi . ."
+sleep 1
+echo "Proses clone konfigurasi . . ."
+sleep 3
 cd
 cd xmrig
-echo "Proses clone konfigurasi"
-if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh; then
+if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh; then
+    echo "Error: Cloning"
     exit 1
 else
-    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh && wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json && chmod +x config.json start.sh && echo "Berhasil clone konfigurasi"
+    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
+fi
+sleep 1
+if ! wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json; then
+    echo "Error: Cloning"
+    exit 1
+else
+    wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json
+fi
+sleep 1
+if ! chmod +x config.json; then
+    exit 1
+else
+    chmod +x config.json
+fi
+if ! chmod +x start.sh; then
+    exit 1
+else
+    chmod +x start.sh && ech "Berhasil cloning konfigurasi"
 fi
 cd
