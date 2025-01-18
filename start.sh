@@ -44,4 +44,4 @@ clear
 echo "            ${PURP}Salam Receh Bosku . . . .${N}"
 sleep 2
 
-~/build/xmrig -c ~/config.json
+~/xmrig/build/xmrig -c ~/xmrig/config.json
