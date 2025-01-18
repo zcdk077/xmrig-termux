@@ -67,4 +67,6 @@ sleep 3
 cd
 chmod +x start.sh
 chmod +x config.json
+rm -r LICENSE
+rm -r README.md
 echo "${GR}Berhasil cloning konfigurasi${N}"
