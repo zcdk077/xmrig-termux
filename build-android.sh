@@ -60,9 +60,6 @@ else
 fi
 sleep 3
 echo "${LYLO}Proses clone konfigurasi${N}"
-echo ""
-echo ""
-echo ""
 sleep 3
 cd
 cd xmrig
