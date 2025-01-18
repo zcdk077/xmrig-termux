@@ -46,7 +46,7 @@ pkg install wget
 wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/build-android.sh
 chmod +x build-android.sh
 ./build-android.sh
-rm -r build-android.sh
+cd && rm -r build-android.sh && cd xmrig
 ```
 
 ## [ Edit Wallet ]
@@ -61,6 +61,7 @@ nano config.json
 
 ## [ Setting Autorun Termux dan Mining ]
 ```
+cd
 nano ../usr/etc/bash.bashrc
 ```
 
