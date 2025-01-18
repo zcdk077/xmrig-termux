@@ -43,7 +43,8 @@ Ssy2PTEKz8J5Pi6hT8Bj4e27fdhgUpkx8FeU4tBs1EhrBNvqKYF72m3YXmW6cxhCYv3RefW8C2egxYqG
 ```
 yes | pkg update && pkg upgrade
 pkg install git
-git clone https://github.com/zcdk077/xmrig-termux.git
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/build-android.sh
+chmod +x build-android.sh
 ./build-android.sh
 rm -r build-android.sh
 ```
