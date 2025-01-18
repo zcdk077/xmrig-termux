@@ -74,3 +74,4 @@ rm -r LICENSE
 rm -r README.md
 cd
 echo "${GR}Berhasil cloning konfigurasi${N}"
+sleep 3
