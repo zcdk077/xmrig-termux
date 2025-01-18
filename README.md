@@ -37,8 +37,6 @@ Ssy2PTEKz8J5Pi6hT8Bj4e27fdhgUpkx8FeU4tBs1EhrBNvqKYF72m3YXmW6cxhCYv3RefW8C2egxYqG
 
 # TUTORIAL TERMUX
 
-## Jangan install xmrig di dalam folder dikarenakan sudah kami setting build yang dibuat untuk tidak didalam folder apapun!!!
-
 ## [ Download & Install xmrig ]
 ```
 yes | pkg update && pkg upgrade
