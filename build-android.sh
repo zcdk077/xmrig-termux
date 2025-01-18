@@ -63,9 +63,9 @@ echo "${LYLO}Proses clone konfigurasi${N}"
 sleep 3
 cd
 cd xmrig
-wget https://raw.githubusercontent.com/zcdk077/master/start.sh
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/start.sh
 chmod +x start.sh
-wget https://raw.githubusercontent.com/zcdk077/master/config.json
+wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/config.json
 chmod +x config.json
 cd
 echo "${GR}Berhasil cloning konfigurasi${N}"
