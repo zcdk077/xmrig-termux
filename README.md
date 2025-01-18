@@ -37,13 +37,13 @@ Ssy2PTEKz8J5Pi6hT8Bj4e27fdhgUpkx8FeU4tBs1EhrBNvqKYF72m3YXmW6cxhCYv3RefW8C2egxYqG
 
 # TUTORIAL TERMUX
 
+## Jangan install xmrig di dalam folder dikarenakan sudah kami setting build yang dibuat untuk tidak didalam folder apapun!!!
+
 ## [ Download & Install xmrig ]
 ```
-wget https://raw.githubusercontent.com/zcdk077/xmrig-termux/master/build-android.sh
-chmod +x build-android.sh
+git clone https://github.com/zcdk077/xmrig-termux.git
 ./build-android.sh
 rm -r build-android.sh
-cd xmrig
 ```
 
 ## [ Edit Wallet ]
@@ -58,7 +58,6 @@ nano config.json
 
 ## [ Setting Autorun Termux dan Mining ]
 ```
-cd
 nano ../usr/etc/bash.bashrc
 ```
 
@@ -67,7 +66,7 @@ nano ../usr/etc/bash.bashrc
 ```
 termux-wake-lock
 clear
-cd xmrig/&&./start.sh
+./start.sh
 ```
 
 Jika tidak mengerti tentang autorun bisa melewati langkah [ Autorun Mining ]
