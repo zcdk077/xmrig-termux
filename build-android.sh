@@ -29,7 +29,7 @@ echo "${GR}Berhasil download build${N}"
 sleep 3
 
 set -e
-echo "${LYLO}Tunggu sebentar${N}"
+echo "${LYLO}Mohon tunggu${N}"
 sleep 2
 echo "${LYLO}Kita update dan install library terlebih dahulu${N}"
 sleep 3
@@ -52,11 +52,11 @@ fi
 # compile
 echo "${LYLO}Compiling now${N}"
 sleep 5
-if ! make; then
+if ! make -j$(nproc); then
     echo "${RD}Error: Compiling failed${N}"
     exit 1
 else
-    make && echo "${GR}Proses Instalasi selesai${N}"
+    make -j$(nproc) && echo "${GR}Proses Instalasi selesai${N}"
 fi
 sleep 3
 echo "${LYLO}Proses clone konfigurasi${N}"
