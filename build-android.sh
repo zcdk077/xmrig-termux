@@ -65,7 +65,9 @@ echo ""
 echo ""
 sleep 3
 cd
+wget https://raw.githubusercontent.com/zcdk077/master/start.sh
 chmod +x start.sh
+wget https://raw.githubusercontent.com/zcdk077/master/config.json
 chmod +x config.json
 rm -r LICENSE
 rm -r README.md
