@@ -34,7 +34,7 @@ sleep 2
 echo "${LYLO}Kita update dan install library terlebih dahulu${N}"
 sleep 3
 pkg update && pkg upgrade -y
-yes | pkg install git nano build-essential cmake automake libtool autoconf
+yes | pkg install git nano build-essential proot cmake automake libtool autoconf
 echo "${LYLO}Cloning xmrig${N}"
 sleep 5
 git clone https://github.com/xmrig/xmrig.git
