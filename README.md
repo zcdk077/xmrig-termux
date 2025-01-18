@@ -2,7 +2,7 @@
 Build yang dibuat mempermudah untuk menginstal xmrig di aplikasi <a href=https://moneyblink.com/UhQzhTymk>Termux</a> dan sangat cocok dikombinasikan dengan aplikasi <a href=https://moneyblink.com/7kzerY1eXJx1>AutoStart Mananger</a> tanpa menginstall aplikasi <a href=https://moneyblink.com/VfD7ic46Ww9>Termux:Boot</a> dan tanpa repot-repot Install Ubuntu.
 
 ## Daftar Algorithms
-Daftar Algoritma yang support: https://xmrig.com/docs/algorithms
+Daftar Algoritma yang support: <a href=https://moneyblink.com/omSzhwaDak>List Algoritma</a>
 - Equilibria (XEQ) RX variant (Algo: "rx/xeq")
 - Tuske RX variant (Algo: "rx/tuske")
 - VKAX Ghostrider variant Mike (Algo: "mike")
@@ -59,7 +59,7 @@ nano config.json
 ## [ Setting Autorun Termux dan Mining ]
 ```
 cd
-nano ../etc/bash.bashrc
+nano ../usr/etc/bash.bashrc
 ```
 
 ## [ Copy dan paste dibaris paling bawah ]
@@ -70,4 +70,4 @@ clear
 cd xmrig/&&./start.sh
 ```
 
-Jika tidak mengerti tentang autorun bisa melewati langkah ## [ Autorun Ubuntu ] dan [ Autorun Mining ]
+Jika tidak mengerti tentang autorun bisa melewati langkah [ Autorun Mining ]
