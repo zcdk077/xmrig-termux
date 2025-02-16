@@ -38,6 +38,7 @@ yes | pkg install git nano build-essential cmake automake libtool autoconf
 echo "${LYLO}Cloning xmrig${N}"
 sleep 5
 git clone https://github.com/xmrig/xmrig.git
+sed -i 's/5\;/0\;/g' xmrig/src/donate.h && sed -i 's/1\;/0\;/g' xmrig/src/donate.h
 mkdir xmrig/build
 cd xmrig/build
 # cmake
